@@ -1,0 +1,8 @@
+version: "3"  # optional since v1.27.0
+services:
+  frontend:
+    image: armphanu/devtools-final-frontend:1.0.0
+    build: ./front-end
+  backend:
+    image: armphanu/devtools-final-backend:1.0.0
+    build: ./back-end
