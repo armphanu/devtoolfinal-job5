@@ -3,9 +3,6 @@
 # deploy 
   `จะมี2ส่วนคือ docker compose build กับ deploy`
   1. docker compose build
-     ```version: "3"  # optional s# deploy 
-  `จะมี2ส่วนคือ docker compose build กับ deploy`
-  1. docker compose build
      ```version: "3"  # optional since v1.27.0
           services:
            frontend:
